@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Biografías</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f5f5;
+    }
+
+    .bio-section {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 60px 20px;
+      background-color: #EDE6DD; /* Café muy claro */
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    .bio-card {
+      background-color: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      width: 300px;
+      padding: 20px;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .bio-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .bio-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 3px solid #5C4033; /* Café oscuro */
+    }
+
+    .bio-card h3 {
+      margin-bottom: 10px;
+      color: #5C4033;
+    }
+
+    .bio-card p {
+      font-size: 14px;
+      color: #333;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="bio-section">
+    <div class="bio-card">
+      <img src="yo.png" alt="Persona 1">
+      <h3>Hernan Barba</h3>
+      <p>am a Sistem inginner
+        with experience in instalation windows 10
+        consider myself a responsible, proactive
+        person with strong teamwork skills. I am
+        motivated to keep learning and to
+        contribute my abilities to the growth of
+        the company. I am excited about the
+        opportunity to become part of your team
+        </p>
+    </div>
+
+    <div class="bio-card">
+      <img src="jimenez.png" alt="Persona 2">
+      <h3>Fernando Lozano</h3>
+      <p>I am a university student currently pursuing a degree in Systems Engineering.
+        I have a strong interest in the field of programming and possess extensive experience in technical support,
+         including computer maintenance and the installation of both Windows and Linux operating systems.</p>
+    </div>
+  </section>
+
+</body>
+</html>
